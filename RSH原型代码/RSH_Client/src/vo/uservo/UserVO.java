@@ -1,9 +1,9 @@
 package uservo;
 
+import constant.MemberType;
 import constant.Role;
+import constant.Sexuality;
 import loginvo.PersonVO;
-import userpo.MemberType;
-import userpo.Sexuality;
 
 public class UserVO extends PersonVO{
 	

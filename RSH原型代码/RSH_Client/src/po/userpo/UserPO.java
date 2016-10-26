@@ -1,6 +1,9 @@
 package userpo;
 import java.io.Serializable;
 
+import constant.MemberType;
+import constant.Sexuality;
+
 public class UserPO implements Serializable{
 	String id;
 	String password;
