@@ -1,0 +1,45 @@
+package loginvo;
+
+import java.util.Date;
+
+import constant.Role;
+
+/**
+ * 
+ * @author john
+ *
+ */
+public class PersonVO {
+	Role role;
+	String id;
+	String name;
+	String password;
+	Date birth;
+	
+	public PersonVO(Role role, String id, String name, String password,Date birth) {
+		this.role = role;
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.birth = birth;
+	}
+
+	public Role getRole() {
+		return role;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+	public Date getBirth() {
+		return birth;
+	}
+}

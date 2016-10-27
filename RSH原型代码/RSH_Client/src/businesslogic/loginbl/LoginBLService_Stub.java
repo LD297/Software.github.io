@@ -3,36 +3,37 @@ package loginbl;
 import constant.ResultMessage;
 import constant.Role;
 import loginblservice.LoginBLService;
-import loginvo.PersonVO;
+import vo.UserVO;
+
 
 public class LoginBLService_Stub implements LoginBLService {
 
-	// 注册
+	// 娉ㄥ唽
 	@Override
-	public PersonVO register(Role role) {
-		// 根据role注册不同的账户
-		return new PersonVO(role, null, null, null);
+	public ResultMessage register(UserVO vo) {
+		// 鏍规嵁role娉ㄥ唽涓嶅悓鐨勮处鎴�
+		return ResultMessage.exists;
 	}
 
-	// 验证登录信息
+	// 楠岃瘉鐧诲綍淇℃伅
 	@Override
 	public ResultMessage check(Role role, String id, String password) {
 		if(role==Role.user){
-			//调用同层模块相应的checkPassword
+			//璋冪敤鍚屽眰妯″潡鐩稿簲鐨刢heckPassword
 			return ResultMessage.pass;
 		} else if(role==Role.hotel){
-			//调用同层模块相应的checkPassword
+			//璋冪敤鍚屽眰妯″潡鐩稿簲鐨刢heckPassword
 			return ResultMessage.pass;
 		} else if(role==Role.webSalesman){
-			//调用同层模块相应的checkPassword
+			//璋冪敤鍚屽眰妯″潡鐩稿簲鐨刢heckPassword
 			return ResultMessage.pass;
 		} else {
-			//调用同层模块相应的checkPassword
+			//璋冪敤鍚屽眰妯″潡鐩稿簲鐨刢heckPassword
 			return ResultMessage.pass;
 		}
 	}
 
-	// 登出
+	// 鐧诲嚭
 	@Override
 	public ResultMessage logout(Role role, String id) {
 		return ResultMessage.successfullyLogout;
@@ -42,7 +43,7 @@ public class LoginBLService_Stub implements LoginBLService {
 		LoginBLService loginBL = new LoginBLService_Stub();
 
 		public void register(){
-			loginBL.register(Role.user);
+			loginBL.register(new UserVO(null, null, null, null, 0, null, null, null, null, 0));
 		}
 		
 		public void check(){

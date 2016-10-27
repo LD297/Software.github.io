@@ -6,8 +6,9 @@ import constant.HotelOrderStateOfUser;
 import constant.SortBy;
 import constant.SortMethod;
 import hotelblservice.SearchHotelBLService;
-import hotelvo.HotelVO;
-import hotelvo.SelectConditionVO;
+import vo.HotelVO;
+import vo.SelectConditionVO;
+
 
 public class SearchHotelBLService_Stub implements SearchHotelBLService{
 	 public String id;

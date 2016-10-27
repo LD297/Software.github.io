@@ -2,8 +2,8 @@ package promotionData;
 
 import java.rmi.RemoteException;
 
+import po.PromotionPO;
 import promotionDataService.PromotionDataService;
-import promotionpo.PromotionPO;
 
 
 public class PromotionData implements PromotionDataService{

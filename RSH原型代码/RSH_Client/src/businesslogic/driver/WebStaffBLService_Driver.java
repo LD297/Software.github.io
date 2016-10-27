@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 
 import constant.ResultMessage;
 import constant.Role;
-import promotionpo.WebSalesmanPO;
+import po.WebSalesmanPO;
 import webstaffblservice.WebStaffBLService;
 
 public class WebStaffBLService_Driver {

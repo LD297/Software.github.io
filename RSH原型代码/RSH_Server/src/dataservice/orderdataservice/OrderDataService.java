@@ -1,6 +1,7 @@
 package orderdataservice;
 import java.rmi.RemoteException;
-import orderpo.OrderPO;
+
+import po.OrderPO;
 
 public interface OrderDataService {
 

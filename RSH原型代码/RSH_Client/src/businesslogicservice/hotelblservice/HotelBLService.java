@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import constant.ResultMessage;
-import hotelvo.HotelVO;
-import hotelvo.RoomAvailableVO;
-import hotelvo.RoomVO;
+import vo.HotelVO;
+import vo.RoomAvailableVO;
+import vo.RoomVO;
+
 
 public interface HotelBLService {
 	public HotelVO getHotel ();

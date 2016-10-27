@@ -5,9 +5,10 @@ import java.util.Date;
 
 import constant.ResultMessage;
 import hotelblservice.HotelBLService;
-import hotelvo.HotelVO;
-import hotelvo.RoomAvailableVO;
-import hotelvo.RoomVO;
+import vo.HotelVO;
+import vo.RoomAvailableVO;
+import vo.RoomVO;
+
 
 public class Hotel implements HotelBLService{
 	

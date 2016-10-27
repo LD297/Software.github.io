@@ -2,7 +2,7 @@ package webstaffData;
 
 import java.rmi.RemoteException;
 
-import promotionpo.WebSalesmanPO;
+import po.WebSalesmanPO;
 import webstaffDataService.WebStaffDataService;
 
 

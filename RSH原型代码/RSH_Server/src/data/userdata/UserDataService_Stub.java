@@ -2,8 +2,8 @@ package userdata;
 
 import java.rmi.RemoteException;
 
+import po.UserPO;
 import userdataservice.UserDataService;
-import userpo.UserPO;
 
 public class UserDataService_Stub implements UserDataService {
 

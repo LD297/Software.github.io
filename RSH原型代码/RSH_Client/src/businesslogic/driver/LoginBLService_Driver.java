@@ -2,16 +2,15 @@ package driver;
 
 import constant.ResultMessage;
 import constant.Role;
-import loginbl.LoginBLService_Stub;
 import loginblservice.LoginBLService;
-import loginvo.PersonVO;
+import vo.UserVO;
 
 public class LoginBLService_Driver {
 	
 	public void drive(LoginBLService loginBLService){
 		
-		PersonVO personVO = loginBLService.register(Role.user);
-		if(personVO.getRole()==Role.user){
+		ResultMessage res = loginBLService.register(new UserVO(null, null, null, null, 0, null, null, null, null, 0));
+		if(res == ResultMessage.exists){
 			System.out.println("Register succeed!");
 		}
 		

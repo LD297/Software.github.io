@@ -2,7 +2,7 @@ package promotionDataService;
 
 import java.rmi.RemoteException;
 
-import promotionpo.PromotionPO;
+import po.PromotionPO;
 
 public interface PromotionDataService {
 	

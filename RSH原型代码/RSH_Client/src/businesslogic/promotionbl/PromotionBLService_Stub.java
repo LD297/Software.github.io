@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 import constant.ResultMessage;
 import constant.condition;
+import po.PromotionPO;
 import promotionblservice.PromotionBLService;
-import promotionpo.PromotionPO;
 
 public class PromotionBLService_Stub implements PromotionBLService{
 	String hotelid;

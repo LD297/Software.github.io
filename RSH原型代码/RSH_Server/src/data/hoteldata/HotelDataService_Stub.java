@@ -6,8 +6,9 @@ import java.util.Date;
 
 import constant.ResultMessage;
 import hoteldataservice.HotelDataService;
-import hotelpo.HotelPO;
-import hotelpo.RoomAvailablePO;
+import po.HotelPO;
+import po.RoomAvailablePO;
+
 
 
 public class HotelDataService_Stub implements HotelDataService{

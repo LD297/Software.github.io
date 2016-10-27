@@ -3,12 +3,13 @@ package loginbl;
 import constant.ResultMessage;
 import constant.Role;
 import loginblservice.LoginBLService;
-import loginvo.PersonVO;
+import vo.UserVO;
+
 
 public class LoginController implements LoginBLService{
 
 	@Override
-	public PersonVO register(Role role) {
+	public ResultMessage register(UserVO vo) {
 		// TODO Auto-generated method stub
 		return null;
 	}

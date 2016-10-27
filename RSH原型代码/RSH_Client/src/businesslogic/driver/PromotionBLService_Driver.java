@@ -4,12 +4,9 @@ import java.rmi.RemoteException;
 import java.util.ArrayList;
 
 import constant.ResultMessage;
-import constant.Role;
 import constant.condition;
+import po.PromotionPO;
 import promotionblservice.PromotionBLService;
-import promotionpo.PromotionPO;
-import promotionpo.WebSalesmanPO;
-import webstaffblservice.WebStaffBLService;
 
 public class PromotionBLService_Driver {
     public void drivepro(PromotionBLService promotionBLService) throws RemoteException{

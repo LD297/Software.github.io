@@ -1,0 +1,10 @@
+package loginpo;
+
+import java.io.Serializable;
+
+import constant.Role;
+
+public class OnlinePersonPO  implements Serializable{
+	Role role;
+	String id;
+}

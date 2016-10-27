@@ -1,9 +1,9 @@
 package userbl;
 
 import constant.ResultMessage;
+import po.UserPO;
 import userblservice.UserBLService;
-import userpo.UserPO;
-import uservo.UserVO;
+import vo.UserVO;
 
 public class UserBLService_Stub implements UserBLService{
 
@@ -19,7 +19,7 @@ public class UserBLService_Stub implements UserBLService{
 
 	@Override
 	public UserVO getInfo(String userid) {
-		return new UserVO(userid, null, null, null, 0, null, null, null, null, null, 0);
+		return new UserVO(userid, null, null, null, 0, null, null, null, null, 0);
 	}
 
 	@Override

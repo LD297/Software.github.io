@@ -2,7 +2,7 @@ package driver;
 import java.rmi.RemoteException;
 
 import orderdataservice.OrderDataService;
-import orderpo.OrderPO;
+import po.OrderPO;
 
 public class OrderDataService_Driver {
 

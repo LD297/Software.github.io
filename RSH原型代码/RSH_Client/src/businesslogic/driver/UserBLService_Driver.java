@@ -1,17 +1,17 @@
 package driver;
 
-import javax.naming.spi.DirStateFactory.Result;
+import java.util.Date;
 
 import constant.ResultMessage;
+import po.UserPO;
 import userbl.UserBLService_Stub;
 import userblservice.UserBLService;
-import userpo.UserPO;
-import uservo.UserVO;
+import vo.UserVO;
 
 public class UserBLService_Driver {
 	
 	public void drive(UserBLService userBLService){
-		ResultMessage result1 = userBLService.add(new UserPO(null, null, null, null, 0, null, null, null, null, null, 0));
+		ResultMessage result1 = userBLService.add(new UserPO(null, null, null,new Date(), null, 0, null, null,null,null, null, null, 0));
 		if(result1==ResultMessage.succeed){
 			System.out.println("Add succeed!");
 		}
@@ -29,7 +29,7 @@ public class UserBLService_Driver {
 			System.out.println("Failed!");
 		}
 		
-		ResultMessage result2 = userBLService.update(new UserVO(null, null, null, null, 0, null, null, null, null, null, 0));
+		ResultMessage result2 = userBLService.update(new UserVO(null, null, null, null, 0, null, null, null, null, 0));
 		if(result2==ResultMessage.succeed){
 			System.out.println("Update succeed!");
 		}

@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import hoteldataservice.HotelDataService;
-import hotelpo.HotelPO;
-import hotelpo.RoomAvailablePO;
+import po.HotelPO;
+import po.RoomAvailablePO;
 
 
 public class HotelDataService_Driver {

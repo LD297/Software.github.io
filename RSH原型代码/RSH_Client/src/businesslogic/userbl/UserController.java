@@ -1,9 +1,10 @@
 package userbl;
 
 import constant.ResultMessage;
+import po.UserPO;
 import userblservice.UserBLService;
-import userpo.UserPO;
-import uservo.UserVO;
+import vo.UserVO;
+
 
 public class UserController implements UserBLService{
 

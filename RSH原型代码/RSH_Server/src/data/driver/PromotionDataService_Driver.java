@@ -2,8 +2,8 @@ package driver;
 
 import java.rmi.RemoteException;
 
+import po.PromotionPO;
 import promotionDataService.PromotionDataService;
-import promotionpo.PromotionPO;
 
 public class PromotionDataService_Driver {
 	

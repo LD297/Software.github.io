@@ -2,9 +2,8 @@ package driver;
 
 import java.rmi.RemoteException;
 
-import userdata.UserDataService_Stub;
+import po.UserPO;
 import userdataservice.UserDataService;
-import userpo.UserPO;
 
 public class UserDataService_Driver {
 	

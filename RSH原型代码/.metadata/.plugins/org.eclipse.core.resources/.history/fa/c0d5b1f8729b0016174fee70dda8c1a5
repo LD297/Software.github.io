@@ -1,0 +1,10 @@
+package logindataservice;
+
+import java.rmi.RemoteException;
+import loginpo.LoginRecordItemPO;
+
+public interface LoginDataService {
+	public boolean checkOnline(String id);
+	public void init() throws RemoteException;
+	public void finish() throws RemoteException;
+}

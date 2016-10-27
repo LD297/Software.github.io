@@ -1,8 +1,8 @@
 package userblservice;
 
 import constant.ResultMessage;
-import userpo.UserPO;
-import uservo.UserVO;
+import po.UserPO;
+import vo.UserVO;
 
 public interface UserBLService {
 	public ResultMessage add(UserPO userPO);

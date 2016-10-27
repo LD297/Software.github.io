@@ -5,7 +5,7 @@ import java.rmi.RemoteException;
 
 import constant.ResultMessage;
 import constant.Role;
-import promotionpo.WebSalesmanPO;
+import po.WebSalesmanPO;
 
 public interface WebStaffBLService extends Remote{
 	public Boolean checkPassword(Role r, String id, String p)throws RemoteException;

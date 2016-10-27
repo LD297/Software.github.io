@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import constant.ResultMessage;
-import hotelpo.HotelPO;
-import hotelpo.RoomAvailablePO;
+import po.HotelPO;
+import po.RoomAvailablePO;
+
 
 
 public interface HotelDataService extends Remote{

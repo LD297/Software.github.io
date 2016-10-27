@@ -2,7 +2,7 @@ package driver;
 
 import java.rmi.RemoteException;
 
-import promotionpo.WebSalesmanPO;
+import po.WebSalesmanPO;
 import webstaffDataService.WebStaffDataService;
 
 public class WebStaffDataService_Driver {

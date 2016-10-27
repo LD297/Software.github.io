@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 
 import constant.ResultMessage;
 import orderdataservice.OrderDataService;
-import orderpo.OrderPO;
+import po.OrderPO;
 public class OrderDataService_Stub implements OrderDataService{
 
 	ResultMessage result = ResultMessage.success;

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import constant.ResultMessage;
 import constant.condition;
-import promotionpo.PromotionPO;
+import po.PromotionPO;
 
 public interface PromotionBLService extends Remote {
 	

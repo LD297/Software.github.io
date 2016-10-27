@@ -2,7 +2,7 @@ package userdataservice;
 
 import java.rmi.RemoteException;
 
-import userpo.UserPO;
+import po.UserPO;
 
 public interface UserDataService {
 	public void add(UserPO userPO);

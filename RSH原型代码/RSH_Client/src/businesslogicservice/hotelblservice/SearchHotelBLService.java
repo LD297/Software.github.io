@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import constant.HotelOrderStateOfUser;
 import constant.SortBy;
 import constant.SortMethod;
-import hotelvo.HotelVO;
-import hotelvo.SelectConditionVO;
+import vo.HotelVO;
+import vo.SelectConditionVO;
 
 
 public interface SearchHotelBLService {
