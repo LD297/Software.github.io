@@ -4,6 +4,7 @@ import constant.ResultMessage;
 import constant.Role;
 import loginblservice.LoginBLService;
 import vo.UserVO;
+import vo.WebManagerVO;
 
 
 public class LoginBLService_Stub implements LoginBLService {
@@ -17,7 +18,7 @@ public class LoginBLService_Stub implements LoginBLService {
 
 	// 楠岃瘉鐧诲綍淇℃伅
 	@Override
-	public ResultMessage check(Role role, String id, String password) {
+	public ResultMessage checkOnline(Role role, String id, String password) {
 		if(role==Role.user){
 			//璋冪敤鍚屽眰妯″潡鐩稿簲鐨刢heckPassword
 			return ResultMessage.pass;
@@ -39,19 +40,9 @@ public class LoginBLService_Stub implements LoginBLService {
 		return ResultMessage.successfullyLogout;
 	}
 
-	public class LoginView{
-		LoginBLService loginBL = new LoginBLService_Stub();
-
-		public void register(){
-			loginBL.register(new UserVO(null, null, null, null, 0, null, null, null, null, 0));
-		}
-		
-		public void check(){
-			loginBL.check(Role.user, "007", "233");
-		}
-		
-		public void logout(){
-			loginBL.logout(Role.user, "2333");
-		}
+	@Override
+	public ResultMessage register(WebManagerVO vo) {
+		// TODO Auto-generated method stub
+		return ResultMessage.pass;
 	}
 }

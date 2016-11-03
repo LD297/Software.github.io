@@ -14,7 +14,7 @@ public class LoginBLService_Driver {
 			System.out.println("Register succeed!");
 		}
 		
-		ResultMessage result1 = loginBLService.check(Role.user, "007", "233");
+		ResultMessage result1 = loginBLService.checkOnline(Role.user, "007", "233");
 		if(result1==ResultMessage.pass){
 			System.out.println("Login succeed!");
 		} else {

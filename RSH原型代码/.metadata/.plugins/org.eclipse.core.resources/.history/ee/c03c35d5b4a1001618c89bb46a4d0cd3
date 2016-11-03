@@ -1,0 +1,14 @@
+/Server/
+/constant/
+/driver/
+/hoteldata/
+/hoteldataservice/
+/logindata/
+/logindataservice/
+/orderData/
+/orderdataservice/
+/po/
+/promotionData/
+/promotionDataService/
+/userdata/
+/userdataservice/

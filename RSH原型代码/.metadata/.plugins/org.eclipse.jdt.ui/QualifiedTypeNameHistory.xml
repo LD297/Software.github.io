@@ -15,4 +15,6 @@
 <fullyQualifiedTypeName name="po.UserPO"/>
 <fullyQualifiedTypeName name="po.WebSalesmanPO"/>
 <fullyQualifiedTypeName name="hotelvo.RoomAvailableVO"/>
+<fullyQualifiedTypeName name="vo.WebManagerVO"/>
+<fullyQualifiedTypeName name="constant.ResultMessage"/>
 </qualifiedTypeNameHistroy>
