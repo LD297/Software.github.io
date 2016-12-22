@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>27</x>
+      <y>0</y>
+      <w>513</w>
+      <h>729</h>
+    </coordinates>
+    <panel_attributes>sd：维护酒店工作人员信息</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>99</x>
+      <y>36</y>
+      <w>90</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>网站管理人员</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>333</x>
+      <y>54</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>系统
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>369</x>
+      <y>90</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>135</x>
+      <y>90</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>369</x>
+      <y>126</y>
+      <w>18</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>135</x>
+      <y>126</y>
+      <w>18</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>108</x>
+      <y>243</y>
+      <w>126</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>添加酒店工作人员账号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>45</x>
+      <y>117</y>
+      <w>468</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes>loop</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>135</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+输入酒店账号</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>108</x>
+      <y>450</y>
+      <w>135</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>删除酒店工作人员账号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>108</x>
+      <y>504</y>
+      <w>135</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>修改酒店工作人员账号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>162</y>
+      <w>243</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+非法账号：
+系统提示错误并返回</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>207</y>
+      <w>243</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+合法账号：
+系统显示酒店基本信息</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>468</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+请求删除酒店工作人员账号</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>522</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+请求修改酒店账号信息</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>63</x>
+      <y>162</y>
+      <w>414</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>585</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+确认修改</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>639</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+取消修改</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>594</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+系统
+更新</panel_attributes>
+    <additional_attributes>10.0;30.0;50.0;30.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>603</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+系统更新成功</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>657</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+系统返回</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>90</x>
+      <y>585</y>
+      <w>342</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>405</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+查看酒店工作人员账号</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>423</y>
+      <w>234</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+系统显示酒店工作人员信息</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>81</x>
+      <y>243</y>
+      <w>378</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>261</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+添加酒店工作人员账号</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>288</y>
+      <w>243</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+不存在账号：
+系统显示基本信息表格</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>81</x>
+      <y>387</y>
+      <w>126</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>查看酒店工作人员账号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>81</x>
+      <y>450</y>
+      <w>369</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>81</x>
+      <y>504</y>
+      <w>369</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>108</x>
+      <y>288</y>
+      <w>324</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>alt
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>333</y>
+      <w>243</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+存在账号：
+系统显示重复并拒绝添加</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>558</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+是否继续修改</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

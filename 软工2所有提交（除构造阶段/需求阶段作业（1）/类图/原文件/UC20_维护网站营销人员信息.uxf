@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>140</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>网站管理人员</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>240</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>网站营销人员信息
+--
+账号
+真实姓名
+性别
+出生日期
+联系电话
+邮箱
+登录密码</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>140</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>网站营销人员列表</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>130</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>发起查看
+增加、删除、修改</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>160</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>

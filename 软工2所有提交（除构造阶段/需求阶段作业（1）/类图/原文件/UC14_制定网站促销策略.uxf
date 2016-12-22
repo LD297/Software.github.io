@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>270</y>
+      <w>160</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>网站促销策略
+--
+名称
+执行时期
+策略折扣
+会员条件
+等级条件
+商圈条件</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>150</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>网站营销人员
+--
+账号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>190</y>
+      <w>60</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>查看</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>270</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>网站促销策略列表</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>270</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>140</y>
+      <w>240</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>制定、删除、修改、查看</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0;220.0;130.0</additional_attributes>
+  </element>
+</diagram>
