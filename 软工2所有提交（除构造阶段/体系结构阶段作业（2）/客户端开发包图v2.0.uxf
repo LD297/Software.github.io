@@ -346,12 +346,12 @@ userdao</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>682</x>
-      <y>1177</y>
+      <y>1243</y>
       <w>33</w>
-      <h>319</h>
+      <h>253</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;270.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;210.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -414,7 +414,7 @@ userdao</panel_attributes>
       <x>627</x>
       <y>1100</y>
       <w>121</w>
-      <h>88</h>
+      <h>154</h>
     </coordinates>
     <panel_attributes>
 --
@@ -464,7 +464,7 @@ Orderbl
       <w>275</w>
       <h>143</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.&gt;
+    <panel_attributes>lt=.&gt;
 </panel_attributes>
     <additional_attributes>10.0;10.0;230.0;110.0</additional_attributes>
   </element>
@@ -488,7 +488,7 @@ Orderbl
       <w>88</w>
       <h>121</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.&gt;
+    <panel_attributes>lt=&lt;.
 </panel_attributes>
     <additional_attributes>10.0;10.0;60.0;90.0</additional_attributes>
   </element>
@@ -1326,5 +1326,18 @@ websalesmancontrollertools</panel_attributes>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
     <additional_attributes>10.0;230.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>638</x>
+      <y>1166</y>
+      <w>99</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>interface
+--
+UserForOrder</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

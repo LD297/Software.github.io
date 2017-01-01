@@ -328,7 +328,7 @@
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>酒店信息维护界面</panel_attributes>
+    <panel_attributes>基本信息</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -416,7 +416,7 @@
       <w>150</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>酒店促销策略详情界面</panel_attributes>
+    <panel_attributes>添加促销策略界面</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -438,7 +438,7 @@
       <w>130</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>订单搜索并浏览界面</panel_attributes>
+    <panel_attributes>订单浏览界面</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -548,7 +548,7 @@
       <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>网站促销策略详情界面</panel_attributes>
+    <panel_attributes>添加网站促销策略界面</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -576,28 +576,6 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>50</x>
-      <y>490</y>
-      <w>30</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>0</x>
-      <y>460</y>
-      <w>130</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>异常订单详情界面</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>320</x>
       <y>570</y>
       <w>90</w>
@@ -614,7 +592,7 @@
       <w>100</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>信用维护界面</panel_attributes>
+    <panel_attributes>信用充值界面</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1154,6 +1132,28 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>修改密码界面</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>1020</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1020</x>
+      <y>1010</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>添加客房界面界面</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
